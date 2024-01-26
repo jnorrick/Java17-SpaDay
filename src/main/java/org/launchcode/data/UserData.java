@@ -7,8 +7,6 @@ import java.util.List;
 
 public class UserData {
     List<User> users = new ArrayList<>();
-
-
     public void add(User user) {
         users.add(user);
     }
